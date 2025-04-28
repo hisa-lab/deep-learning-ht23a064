@@ -1,0 +1,9 @@
+{
+    "name": "Deep Learning Dev Container",
+    "image": "python:3.10",
+    "postCreateCommand": "pip install --upgrade pip && pip install numpy matplotlib",
+    "settings": {
+      "terminal.integrated.defaultProfile.linux": "bash"
+    }
+}
+  
